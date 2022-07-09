@@ -10,8 +10,8 @@ font-family: Poppins, Inter ;
     flex-direction:row;
     justify-content: center;
     background-color: black;
-    width:1200px;
-    margin-left: 300px;
+    width:1500px;
+    margin-left: 200px;
   }
   .navbar > div {
     
@@ -160,8 +160,8 @@ font-family: Poppins, Inter ;
   flex-direction:row;
   justify-content: center;
   background-color:black;
-  width: 1200px;
-  margin-left: 300px;
+  width: 1500px;
+  margin-left: 200px;
   margin-bottom: 5px;
   
 }
@@ -176,12 +176,16 @@ font-family: Poppins, Inter ;
   flex-direction:row;
   justify-content: center;
   background-color:black;
-  width: 1200px;
-  margin-left: 300px;
+  width: 1500px;
+  margin-left: 200px;
 }
 .footer> div {
   width: 400px;
   margin: 40px;
   line-height: 100px;
   color:white
+}
+.button{
+  background-color: #ED661F;
+  
 }
