@@ -46,7 +46,7 @@ font-family: Poppins, Inter ;
   color:blueviolet
  }
  .flexcointainer0{
-  background-image: url("assets/css/image1.png");
+  background-image: url("../images/image 1.png");
   display: flex;
   flex-direction:row;
   justify-content: center;
