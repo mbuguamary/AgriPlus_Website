@@ -49,11 +49,22 @@ font-family: Poppins, Inter ;
   background-size:cover;
   background-position:center; 
   margin-left: 200px;
-}
+ }
 
 .flexcointainer0> div {
   width: 600px;
+  margin: auto;
+ 
+ 
+  
+  }
+.button1 {
+  width: 200px;
   margin: 40px;
+  height: 80px;
+  background-color: #ED661F;
+  color:white;
+  font-size: large;
   
 }
 .flexcointainer0 img{
@@ -65,15 +76,17 @@ font-family: Poppins, Inter ;
   flex-direction:row;
   justify-content: center;
   background-color:white;
+  height: 30vh
 }
 .flexcointainer1> div {
   width: 600px;
   margin: 20px;
+ 
   
 }
 .flexcointainer1 img{
   width: 800px;
-  height: fit-content;
+  height: 30vh;
 }
  .flexcointainer3{
   display: flex;
@@ -84,8 +97,10 @@ font-family: Poppins, Inter ;
 .flexcointainer3> div {
   width: 300px;
   margin: 40px;
+
   
 }
+
 .clear{
   clear:both;
   content:"";
@@ -102,7 +117,7 @@ font-family: Poppins, Inter ;
 }
 .flexcointainer3 img{
   width: 300px;
-  height: fit-content;
+  height: 20vh;
 }
 .flexcointainer4{
   display: flex;
@@ -113,7 +128,7 @@ font-family: Poppins, Inter ;
 .flexcointainer4> div {
   width: 300px;
   margin: 40px;
-  line-height: 5px;
+
   
 }
 .flexcointainer5{
@@ -130,7 +145,7 @@ font-family: Poppins, Inter ;
 }
 .flexcointainer5 img{
   width: 300px;
-  height: fit-content;
+  height: 20vh;
 }
 .flexcointainer6{
   display: flex;
