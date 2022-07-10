@@ -114,6 +114,11 @@ font-family: Poppins, Inter ;
 }
 .location p,h3{
   text-align: center;
+  
+}
+.location1 h2{
+  text-align: left;
+  margin-left: 280px;
 }
 .flexcointainer3 img{
   width: 300px;
@@ -233,3 +238,14 @@ font-family: Poppins, Inter ;
 .checked {
   color: orange;
 }
+.new{
+  text-align: left;
+  margin-left: 200px;
+  color: black;
+  font-size: large;
+  
+}
+.see{
+  text-align: Right;
+  margin-right: 200px;
+  }
