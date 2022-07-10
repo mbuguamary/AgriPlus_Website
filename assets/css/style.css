@@ -155,6 +155,17 @@ font-family: Poppins, Inter ;
   line-height: 5px;
   
 }
+.ratings{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  background-color:white;  
+}
+.ratings> div {
+  width: 400px;
+  margin: 10px;
+ 
+}
 .flexcontainertouch{
   display: flex;
   flex-direction:row;
@@ -182,10 +193,12 @@ font-family: Poppins, Inter ;
 .footer> div {
   width: 400px;
   margin: 40px;
-  line-height: 100px;
   color:white
 }
 .button{
   background-color: #ED661F;
   
+}
+.checked {
+  color: orange;
 }
