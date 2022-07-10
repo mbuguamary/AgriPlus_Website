@@ -192,6 +192,7 @@ font-family: Poppins, Inter ;
   height: fit-content;
 }
 .ratings{
+ 
   display: flex;
   flex-direction:row;
   justify-content: center;
@@ -200,8 +201,12 @@ font-family: Poppins, Inter ;
 .ratings> div {
   width: 400px;
   margin: 10px;
- 
+  border-right: 5px solid whitesmoke;
+  border-bottom: 5px solid whitesmoke;
+  border-left: 5px solid whitesmoke;
 }
+ 
+
 .flexcontainertouch{
   display: flex;
   flex-direction:row;
@@ -237,7 +242,9 @@ font-family: Poppins, Inter ;
 }
 .checked {
   color: orange;
+  
 }
+
 .new{
   text-align: left;
   margin-left: 200px;
