@@ -3,8 +3,14 @@
 font-family: Poppins, Inter ;
 
 }
-.heading{
-
+.button2 {
+  width: 150px;
+  height: 50px;
+  background-color: #ED661F;
+  color:white;
+  font-size: large;
+  margin-left: 100px;
+  
 }
 
   .navbar{
@@ -23,13 +29,14 @@ font-family: Poppins, Inter ;
     line-height: 30px;
     font-size: 20px;
     color: white;
-    font-style: Space Grotesk, Oleo Script
+    
   }
-  .heading{
+  .heading h4{
    text-align: left;
   }
-  ul{
-    list-style-type: none;
+  ul li a{
+    text-decoration: none;
+    color: white;
   }
   ul li{
     display:inline-block;   
@@ -145,7 +152,7 @@ font-family: Poppins, Inter ;
 .flexcointainer5> div {
   width: 300px;
   margin: 40px;
-  line-height: 5px;
+  
   
 }
 .flexcointainer5 img{
@@ -161,7 +168,7 @@ font-family: Poppins, Inter ;
 .flexcointainer6> div {
   width: 300px;
   margin: 10px;
-  line-height: 5px;
+ 
   
 }
 .flexcontainer7{
@@ -200,12 +207,15 @@ font-family: Poppins, Inter ;
 }
 .ratings> div {
   width: 400px;
-  margin: 10px;
+  margin: 40px;
   border-right: 5px solid whitesmoke;
   border-bottom: 5px solid whitesmoke;
   border-left: 5px solid whitesmoke;
 }
- 
+.ratings img{
+  width: 50px;
+  height: fit-content;
+}
 
 .flexcontainertouch{
   display: flex;
@@ -220,7 +230,7 @@ font-family: Poppins, Inter ;
 .flexcontainertouch> div {
   width: 400px;
   margin: 10px;
-  line-height: 20px;
+  
   color:white
 }
 .footer{
@@ -242,6 +252,7 @@ font-family: Poppins, Inter ;
 }
 .checked {
   color: orange;
+  font-size:600%;
   
 }
 
@@ -255,4 +266,9 @@ font-family: Poppins, Inter ;
 .see{
   text-align: Right;
   margin-right: 200px;
+  }
+  
+  .flexcointainer1 h3{
+    margin-right: 200px;
+    text-align: left;
   }
