@@ -3,7 +3,9 @@
 font-family: Poppins, Inter ;
 
 }
+.heading{
 
+}
 
   .navbar{
     display: flex;
@@ -23,9 +25,18 @@ font-family: Poppins, Inter ;
     color: white;
     font-style: Space Grotesk, Oleo Script
   }
+  .heading{
+   text-align: left;
+  }
+  ul{
+    list-style-type: none;
+  }
   ul li{
-    display:inline-block;
-    font-style: Space Grotesk, Oleo Script;
+    display:inline-block;   
+ }
+ ul li a:hover{
+ 
+  color:blueviolet
  }
  .flexcointainer0{
   background-image: url("/assets/images/image1.png");
@@ -33,9 +44,13 @@ font-family: Poppins, Inter ;
   flex-direction:row;
   justify-content: center;
   background-repeat: repeat-x;
-
-  
+  height: 50vh;
+  width: 1500px;
+  background-size:cover;
+  background-position:center; 
+  margin-left: 200px;
 }
+
 .flexcointainer0> div {
   width: 600px;
   margin: 40px;
@@ -84,8 +99,6 @@ font-family: Poppins, Inter ;
 }
 .location p,h3{
   text-align: center;
- 
-  ;
 }
 .flexcointainer3 img{
   width: 300px;
@@ -139,8 +152,9 @@ font-family: Poppins, Inter ;
 }
 .flexcontainer7> div {
   width: 400px;
-  margin: 40px;
-  line-height: 5px;
+  margin: 10px;
+  font-size: 100;
+ 
   
 }
 .flexcontainerimage{
@@ -151,9 +165,11 @@ font-family: Poppins, Inter ;
 }
 .flexcontainerimage div {
   width: 400px;
-  margin: 40px;
-  line-height: 5px;
-  
+  margin: 40px;  
+}
+.flexcontainerimage img{
+  width: 50px;
+  height: fit-content;
 }
 .ratings{
   display: flex;
