@@ -167,37 +167,26 @@ font-family: Poppins, Inter ;
 }
 .flexcointainer6> div {
   width: 300px;
-  margin: 10px;
- 
+  margin: 40px;
   
 }
-.flexcontainer7{
+.customers{
   display: flex;
   flex-direction:row;
   justify-content: center;
   background-color:white;
-}
-.flexcontainer7> div {
-  width: 400px;
-  margin: 10px;
-  font-size: 100;
- 
+  margin-left: 400px;
+  margin-bottom:  4px;
+  box-shadow: 5px 5px 5px whitesmoke;
+ }
+.customers> div {
+  width: 300px;
+  margin: 1px;
+  
   
 }
-.flexcontainerimage{
-  display: flex;
-  flex-direction:row;
-  justify-content: center;
-  background-color:white;
-}
-.flexcontainerimage div {
-  width: 400px;
-  margin: 40px;  
-}
-.flexcontainerimage img{
-  width: 50px;
-  height: fit-content;
-}
+
+
 .ratings{
  
   display: flex;
@@ -271,4 +260,13 @@ font-family: Poppins, Inter ;
   .flexcointainer1 h3{
     margin-right: 200px;
     text-align: left;
+  }
+  .border{
+  
+  justify-content: center;
+  background-color:grey;
+  width: 1500px;
+  height: 4vh;
+  margin-left: 200px;
+  margin-bottom: 5px;
   }
