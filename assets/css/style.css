@@ -53,18 +53,17 @@ font-family: Poppins, Inter ;
   background-repeat: repeat-x;
   height: 50vh;
   width: 1500px;
-  background-size:cover;
-  background-position:center; 
+  background-size:100% 90%;
+  background-position:0 -90; 
   margin-left: 200px;
+  
  }
 
-.flexcointainer0> div {
+flexcointainer0> div {
   width: 600px;
   margin: auto;
- 
- 
-  
   }
+
 .button1 {
   width: 200px;
   margin: 40px;
@@ -77,6 +76,7 @@ font-family: Poppins, Inter ;
 .flexcointainer0 img{
   width: 600px;
   height: fit-content;
+  ;
 }
  .flexcointainer1{
   display: flex;
